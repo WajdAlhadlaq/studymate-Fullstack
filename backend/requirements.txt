@@ -1,0 +1,8 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+sqlalchemy
+# You can add other packages below as your project requires:
+psycopg2-binary  # For connecting to PostgreSQL
+python-dotenv    # For reading .env files (optional but useful)
+openai
